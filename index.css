@@ -1,0 +1,61 @@
+body {
+    background-color: #1B244A;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+@font-face {
+    font-family: myFamilyFont;
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+p,button{
+    font-family: myFamilyFont;
+}
+
+div, #reset{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3{
+    color: #ffffff;
+    display: flex;
+    font-size: xx-large;
+    justify-content: space-around;
+}
+
+p{
+    color: #F94F6D;
+    height: auto;
+    width: auto;
+    padding-top: 10px;
+    font-size: 65;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+button{
+    border-radius: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: #9AABD8;
+    border-color: #9AABD8;
+    background-color: #1B244A;
+}
+
+#reset{
+    margin: auto;
+    display: flex;
+    justify-content:center;
+    padding: 20px;
+}
+
+
+/* 1. posisi new game di bawah
+ 2. add tulisan */
